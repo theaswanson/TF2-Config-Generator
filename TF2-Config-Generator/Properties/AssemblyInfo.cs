@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TF2-Config-Generator")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("TF2 Config Generator by crisp")]
+[assembly: AssemblyDescription("Choose your optimal TF2 settings, then generate an autoexec.cfg file that will load those settings each time the game is launched. Place it in " + @"C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\cfg")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TF2-Config-Generator")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCompany("Layer 7")]
+[assembly: AssemblyProduct("TF2 Config Generator")]
+[assembly: AssemblyCopyright("Copyright © 2018. Logo based on the Team Fortress 2 logo, Copyright © Valve Corporation.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
