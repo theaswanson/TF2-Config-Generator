@@ -46,10 +46,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.tb_volume = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.tb_sensitivity = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabHUD = new System.Windows.Forms.TabPage();
             this.panel10 = new System.Windows.Forms.Panel();
@@ -93,11 +91,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.rb_tf_hud_show_servertimelimitOff = new System.Windows.Forms.RadioButton();
             this.rb_tf_hud_show_servertimelimitOn = new System.Windows.Forms.RadioButton();
-            this.tb_fov_desired = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.tb_viewmodel_fov_demo = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.tb_viewmodel_fov = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.tabClasses = new System.Windows.Forms.TabPage();
             this.panel16 = new System.Windows.Forms.Panel();
@@ -108,57 +103,29 @@
             this.rb_tf_medigun_autohealOff = new System.Windows.Forms.RadioButton();
             this.rb_tf_medigun_autohealOn = new System.Windows.Forms.RadioButton();
             this.label20 = new System.Windows.Forms.Label();
-            this.tabAdvanced = new System.Windows.Forms.TabPage();
-            this.label25 = new System.Windows.Forms.Label();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.rb_con_enableOn = new System.Windows.Forms.RadioButton();
-            this.rb_con_enableOff = new System.Windows.Forms.RadioButton();
-            this.label24 = new System.Windows.Forms.Label();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.rb_cl_notifications_show_ingameOn = new System.Windows.Forms.RadioButton();
-            this.rb_cl_notifications_show_ingameOff = new System.Windows.Forms.RadioButton();
-            this.label23 = new System.Windows.Forms.Label();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.rb_cl_disablehtmlmotdOn = new System.Windows.Forms.RadioButton();
-            this.rb_cl_disablehtmlmotdOff = new System.Windows.Forms.RadioButton();
-            this.tb_fps_max = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
             this.tabHitsound = new System.Windows.Forms.TabPage();
-            this.tb_tf_dingaling_pitchmaxdmg = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.tb_tf_dingaling_pitchmindmg = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.panel22 = new System.Windows.Forms.Panel();
             this.rb_tf_dingalingalingOn = new System.Windows.Forms.RadioButton();
             this.rb_tf_dingalingalingOff = new System.Windows.Forms.RadioButton();
-            this.tb_tf_dingaling_volume = new System.Windows.Forms.TextBox();
             this.label29 = new System.Windows.Forms.Label();
             this.tabCrosshair = new System.Windows.Forms.TabPage();
-            this.tb_cl_crosshair_scale = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
-            this.tb_cl_crosshair_blue = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
-            this.tb_cl_crosshair_green = new System.Windows.Forms.TextBox();
             this.label31 = new System.Windows.Forms.Label();
-            this.tb_cl_crosshair_red = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
             this.tabNetwork = new System.Windows.Forms.TabPage();
-            this.tb_rate = new System.Windows.Forms.TextBox();
             this.label41 = new System.Windows.Forms.Label();
-            this.tb_cl_updaterate = new System.Windows.Forms.TextBox();
             this.label37 = new System.Windows.Forms.Label();
-            this.tb_cl_smoothtime = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.panel21 = new System.Windows.Forms.Panel();
             this.rb_cl_smoothOn = new System.Windows.Forms.RadioButton();
             this.rb_cl_smoothOff = new System.Windows.Forms.RadioButton();
-            this.tb_cl_interp_ratio = new System.Windows.Forms.TextBox();
             this.label40 = new System.Windows.Forms.Label();
-            this.tb_cl_interp = new System.Windows.Forms.TextBox();
             this.label39 = new System.Windows.Forms.Label();
-            this.tb_cl_cmdrate = new System.Windows.Forms.TextBox();
             this.label38 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.panel20 = new System.Windows.Forms.Panel();
@@ -177,17 +144,50 @@
             this.panel23 = new System.Windows.Forms.Panel();
             this.rb_dsp_enhance_stereoOn = new System.Windows.Forms.RadioButton();
             this.rb_dsp_enhance_stereoOff = new System.Windows.Forms.RadioButton();
+            this.tabAdvanced = new System.Windows.Forms.TabPage();
+            this.label25 = new System.Windows.Forms.Label();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.rb_con_enableOn = new System.Windows.Forms.RadioButton();
+            this.rb_con_enableOff = new System.Windows.Forms.RadioButton();
+            this.label24 = new System.Windows.Forms.Label();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.rb_cl_notifications_show_ingameOn = new System.Windows.Forms.RadioButton();
+            this.rb_cl_notifications_show_ingameOff = new System.Windows.Forms.RadioButton();
+            this.label23 = new System.Windows.Forms.Label();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.rb_cl_disablehtmlmotdOn = new System.Windows.Forms.RadioButton();
+            this.rb_cl_disablehtmlmotdOff = new System.Windows.Forms.RadioButton();
+            this.label22 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exportConfigToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.btn_createConfig = new System.Windows.Forms.Button();
             this.btn_useDefaultSettings = new System.Windows.Forms.Button();
             this.btn_useRecommendedSettings = new System.Windows.Forms.Button();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exportConfigToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.num_sensitivity = new System.Windows.Forms.NumericUpDown();
+            this.num_volume = new System.Windows.Forms.NumericUpDown();
+            this.num_viewmodel_fov = new System.Windows.Forms.NumericUpDown();
+            this.num_fov_desired = new System.Windows.Forms.NumericUpDown();
+            this.num_viewmodel_fov_demo = new System.Windows.Forms.NumericUpDown();
+            this.num_tf_dingaling_volume = new System.Windows.Forms.NumericUpDown();
+            this.num_tf_dingaling_pitchmindmg = new System.Windows.Forms.NumericUpDown();
+            this.num_tf_dingaling_pitchmaxdmg = new System.Windows.Forms.NumericUpDown();
+            this.num_cl_crosshair_red = new System.Windows.Forms.NumericUpDown();
+            this.num_cl_crosshair_green = new System.Windows.Forms.NumericUpDown();
+            this.num_cl_crosshair_blue = new System.Windows.Forms.NumericUpDown();
+            this.num_cl_crosshair_scale = new System.Windows.Forms.NumericUpDown();
+            this.num_cl_cmdrate = new System.Windows.Forms.NumericUpDown();
+            this.num_cl_interp = new System.Windows.Forms.NumericUpDown();
+            this.num_cl_interp_ratio = new System.Windows.Forms.NumericUpDown();
+            this.num_cl_smoothtime = new System.Windows.Forms.NumericUpDown();
+            this.num_cl_updaterate = new System.Windows.Forms.NumericUpDown();
+            this.num_rate = new System.Windows.Forms.NumericUpDown();
+            this.num_fps_max = new System.Windows.Forms.NumericUpDown();
             this.tabControl1.SuspendLayout();
             this.tabGeneral.SuspendLayout();
             this.panel14.SuspendLayout();
@@ -209,10 +209,6 @@
             this.tabClasses.SuspendLayout();
             this.panel16.SuspendLayout();
             this.panel15.SuspendLayout();
-            this.tabAdvanced.SuspendLayout();
-            this.panel19.SuspendLayout();
-            this.panel18.SuspendLayout();
-            this.panel17.SuspendLayout();
             this.tabHitsound.SuspendLayout();
             this.panel22.SuspendLayout();
             this.tabCrosshair.SuspendLayout();
@@ -223,7 +219,30 @@
             this.panel25.SuspendLayout();
             this.panel24.SuspendLayout();
             this.panel23.SuspendLayout();
+            this.tabAdvanced.SuspendLayout();
+            this.panel19.SuspendLayout();
+            this.panel18.SuspendLayout();
+            this.panel17.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.num_sensitivity)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_volume)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_viewmodel_fov)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_fov_desired)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_viewmodel_fov_demo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_tf_dingaling_volume)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_tf_dingaling_pitchmindmg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_tf_dingaling_pitchmaxdmg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_crosshair_red)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_crosshair_green)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_crosshair_blue)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_crosshair_scale)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_cmdrate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_interp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_interp_ratio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_smoothtime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_updaterate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_rate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_fps_max)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -248,6 +267,8 @@
             // 
             // tabGeneral
             // 
+            this.tabGeneral.Controls.Add(this.num_volume);
+            this.tabGeneral.Controls.Add(this.num_sensitivity);
             this.tabGeneral.Controls.Add(this.panel14);
             this.tabGeneral.Controls.Add(this.panel13);
             this.tabGeneral.Controls.Add(this.panel12);
@@ -255,15 +276,13 @@
             this.tabGeneral.Controls.Add(this.label6);
             this.tabGeneral.Controls.Add(this.label5);
             this.tabGeneral.Controls.Add(this.label4);
-            this.tabGeneral.Controls.Add(this.tb_volume);
             this.tabGeneral.Controls.Add(this.label3);
             this.tabGeneral.Controls.Add(this.label2);
-            this.tabGeneral.Controls.Add(this.tb_sensitivity);
             this.tabGeneral.Controls.Add(this.label1);
             this.tabGeneral.Location = new System.Drawing.Point(4, 22);
             this.tabGeneral.Name = "tabGeneral";
             this.tabGeneral.Padding = new System.Windows.Forms.Padding(3);
-            this.tabGeneral.Size = new System.Drawing.Size(474, 274);
+            this.tabGeneral.Size = new System.Drawing.Size(538, 304);
             this.tabGeneral.TabIndex = 0;
             this.tabGeneral.Text = "General";
             this.tabGeneral.UseVisualStyleBackColor = true;
@@ -419,14 +438,6 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Auto-reload";
             // 
-            // tb_volume
-            // 
-            this.tb_volume.Location = new System.Drawing.Point(196, 38);
-            this.tb_volume.Name = "tb_volume";
-            this.tb_volume.Size = new System.Drawing.Size(100, 20);
-            this.tb_volume.TabIndex = 7;
-            this.tb_volume.Text = "0.5";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -444,14 +455,6 @@
             this.label2.Size = new System.Drawing.Size(89, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Raw mouse input";
-            // 
-            // tb_sensitivity
-            // 
-            this.tb_sensitivity.Location = new System.Drawing.Point(196, 12);
-            this.tb_sensitivity.Name = "tb_sensitivity";
-            this.tb_sensitivity.Size = new System.Drawing.Size(100, 20);
-            this.tb_sensitivity.TabIndex = 1;
-            this.tb_sensitivity.Text = "3";
             // 
             // label1
             // 
@@ -480,7 +483,7 @@
             this.tabHUD.Controls.Add(this.label7);
             this.tabHUD.Location = new System.Drawing.Point(4, 22);
             this.tabHUD.Name = "tabHUD";
-            this.tabHUD.Size = new System.Drawing.Size(474, 274);
+            this.tabHUD.Size = new System.Drawing.Size(538, 304);
             this.tabHUD.TabIndex = 4;
             this.tabHUD.Text = "HUD";
             this.tabHUD.UseVisualStyleBackColor = true;
@@ -768,22 +771,22 @@
             // tabGraphics
             // 
             this.tabGraphics.AutoScroll = true;
+            this.tabGraphics.Controls.Add(this.num_viewmodel_fov_demo);
+            this.tabGraphics.Controls.Add(this.num_fov_desired);
+            this.tabGraphics.Controls.Add(this.num_viewmodel_fov);
             this.tabGraphics.Controls.Add(this.label19);
             this.tabGraphics.Controls.Add(this.label18);
             this.tabGraphics.Controls.Add(this.panel3);
             this.tabGraphics.Controls.Add(this.panel2);
             this.tabGraphics.Controls.Add(this.label17);
             this.tabGraphics.Controls.Add(this.panel1);
-            this.tabGraphics.Controls.Add(this.tb_fov_desired);
             this.tabGraphics.Controls.Add(this.label16);
-            this.tabGraphics.Controls.Add(this.tb_viewmodel_fov_demo);
             this.tabGraphics.Controls.Add(this.label15);
-            this.tabGraphics.Controls.Add(this.tb_viewmodel_fov);
             this.tabGraphics.Controls.Add(this.label14);
             this.tabGraphics.Location = new System.Drawing.Point(4, 22);
             this.tabGraphics.Name = "tabGraphics";
             this.tabGraphics.Padding = new System.Windows.Forms.Padding(3);
-            this.tabGraphics.Size = new System.Drawing.Size(474, 274);
+            this.tabGraphics.Size = new System.Drawing.Size(538, 304);
             this.tabGraphics.TabIndex = 1;
             this.tabGraphics.Text = "Graphics";
             this.tabGraphics.UseVisualStyleBackColor = true;
@@ -909,14 +912,6 @@
             this.rb_tf_hud_show_servertimelimitOn.Text = "On";
             this.rb_tf_hud_show_servertimelimitOn.UseVisualStyleBackColor = true;
             // 
-            // tb_fov_desired
-            // 
-            this.tb_fov_desired.Location = new System.Drawing.Point(196, 64);
-            this.tb_fov_desired.Name = "tb_fov_desired";
-            this.tb_fov_desired.Size = new System.Drawing.Size(100, 20);
-            this.tb_fov_desired.TabIndex = 5;
-            this.tb_fov_desired.Text = "90";
-            // 
             // label16
             // 
             this.label16.AutoSize = true;
@@ -926,14 +921,6 @@
             this.label16.TabIndex = 4;
             this.label16.Text = "FOV";
             // 
-            // tb_viewmodel_fov_demo
-            // 
-            this.tb_viewmodel_fov_demo.Location = new System.Drawing.Point(196, 38);
-            this.tb_viewmodel_fov_demo.Name = "tb_viewmodel_fov_demo";
-            this.tb_viewmodel_fov_demo.Size = new System.Drawing.Size(100, 20);
-            this.tb_viewmodel_fov_demo.TabIndex = 3;
-            this.tb_viewmodel_fov_demo.Text = "54";
-            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -942,14 +929,6 @@
             this.label15.Size = new System.Drawing.Size(137, 13);
             this.label15.TabIndex = 2;
             this.label15.Text = "Viewmodel FOV (Spectator)";
-            // 
-            // tb_viewmodel_fov
-            // 
-            this.tb_viewmodel_fov.Location = new System.Drawing.Point(196, 12);
-            this.tb_viewmodel_fov.Name = "tb_viewmodel_fov";
-            this.tb_viewmodel_fov.Size = new System.Drawing.Size(100, 20);
-            this.tb_viewmodel_fov.TabIndex = 1;
-            this.tb_viewmodel_fov.Text = "70";
             // 
             // label14
             // 
@@ -969,7 +948,7 @@
             this.tabClasses.Location = new System.Drawing.Point(4, 22);
             this.tabClasses.Name = "tabClasses";
             this.tabClasses.Padding = new System.Windows.Forms.Padding(3);
-            this.tabClasses.Size = new System.Drawing.Size(474, 274);
+            this.tabClasses.Size = new System.Drawing.Size(538, 304);
             this.tabClasses.TabIndex = 2;
             this.tabClasses.Text = "Classes";
             this.tabClasses.UseVisualStyleBackColor = true;
@@ -1054,186 +1033,23 @@
             this.label20.TabIndex = 0;
             this.label20.Text = "Medigun autoheal";
             // 
-            // tabAdvanced
-            // 
-            this.tabAdvanced.Controls.Add(this.label25);
-            this.tabAdvanced.Controls.Add(this.panel19);
-            this.tabAdvanced.Controls.Add(this.label24);
-            this.tabAdvanced.Controls.Add(this.panel18);
-            this.tabAdvanced.Controls.Add(this.label23);
-            this.tabAdvanced.Controls.Add(this.panel17);
-            this.tabAdvanced.Controls.Add(this.tb_fps_max);
-            this.tabAdvanced.Controls.Add(this.label22);
-            this.tabAdvanced.Location = new System.Drawing.Point(4, 22);
-            this.tabAdvanced.Name = "tabAdvanced";
-            this.tabAdvanced.Padding = new System.Windows.Forms.Padding(3);
-            this.tabAdvanced.Size = new System.Drawing.Size(474, 274);
-            this.tabAdvanced.TabIndex = 3;
-            this.tabAdvanced.Text = "Advanced";
-            this.tabAdvanced.UseVisualStyleBackColor = true;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(110, 95);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(80, 13);
-            this.label25.TabIndex = 23;
-            this.label25.Text = "Enable console";
-            // 
-            // panel19
-            // 
-            this.panel19.Controls.Add(this.rb_con_enableOn);
-            this.panel19.Controls.Add(this.rb_con_enableOff);
-            this.panel19.Location = new System.Drawing.Point(196, 90);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(115, 20);
-            this.panel19.TabIndex = 24;
-            // 
-            // rb_con_enableOn
-            // 
-            this.rb_con_enableOn.AutoSize = true;
-            this.rb_con_enableOn.Location = new System.Drawing.Point(3, 3);
-            this.rb_con_enableOn.Name = "rb_con_enableOn";
-            this.rb_con_enableOn.Size = new System.Drawing.Size(39, 17);
-            this.rb_con_enableOn.TabIndex = 14;
-            this.rb_con_enableOn.Text = "On";
-            this.rb_con_enableOn.UseVisualStyleBackColor = true;
-            // 
-            // rb_con_enableOff
-            // 
-            this.rb_con_enableOff.AutoSize = true;
-            this.rb_con_enableOff.Checked = true;
-            this.rb_con_enableOff.Location = new System.Drawing.Point(48, 3);
-            this.rb_con_enableOff.Name = "rb_con_enableOff";
-            this.rb_con_enableOff.Size = new System.Drawing.Size(39, 17);
-            this.rb_con_enableOff.TabIndex = 15;
-            this.rb_con_enableOff.TabStop = true;
-            this.rb_con_enableOff.Text = "Off";
-            this.rb_con_enableOff.UseVisualStyleBackColor = true;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(57, 69);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(133, 13);
-            this.label24.TabIndex = 21;
-            this.label24.Text = "Show notifications in-game";
-            // 
-            // panel18
-            // 
-            this.panel18.Controls.Add(this.rb_cl_notifications_show_ingameOn);
-            this.panel18.Controls.Add(this.rb_cl_notifications_show_ingameOff);
-            this.panel18.Location = new System.Drawing.Point(196, 64);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(115, 20);
-            this.panel18.TabIndex = 22;
-            // 
-            // rb_cl_notifications_show_ingameOn
-            // 
-            this.rb_cl_notifications_show_ingameOn.AutoSize = true;
-            this.rb_cl_notifications_show_ingameOn.Location = new System.Drawing.Point(3, 3);
-            this.rb_cl_notifications_show_ingameOn.Name = "rb_cl_notifications_show_ingameOn";
-            this.rb_cl_notifications_show_ingameOn.Size = new System.Drawing.Size(39, 17);
-            this.rb_cl_notifications_show_ingameOn.TabIndex = 14;
-            this.rb_cl_notifications_show_ingameOn.Text = "On";
-            this.rb_cl_notifications_show_ingameOn.UseVisualStyleBackColor = true;
-            // 
-            // rb_cl_notifications_show_ingameOff
-            // 
-            this.rb_cl_notifications_show_ingameOff.AutoSize = true;
-            this.rb_cl_notifications_show_ingameOff.Checked = true;
-            this.rb_cl_notifications_show_ingameOff.Location = new System.Drawing.Point(48, 3);
-            this.rb_cl_notifications_show_ingameOff.Name = "rb_cl_notifications_show_ingameOff";
-            this.rb_cl_notifications_show_ingameOff.Size = new System.Drawing.Size(39, 17);
-            this.rb_cl_notifications_show_ingameOff.TabIndex = 15;
-            this.rb_cl_notifications_show_ingameOff.TabStop = true;
-            this.rb_cl_notifications_show_ingameOff.Text = "Off";
-            this.rb_cl_notifications_show_ingameOff.UseVisualStyleBackColor = true;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(80, 43);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(110, 13);
-            this.label23.TabIndex = 19;
-            this.label23.Text = "Disable HTML MOTD";
-            // 
-            // panel17
-            // 
-            this.panel17.Controls.Add(this.rb_cl_disablehtmlmotdOn);
-            this.panel17.Controls.Add(this.rb_cl_disablehtmlmotdOff);
-            this.panel17.Location = new System.Drawing.Point(196, 38);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(115, 20);
-            this.panel17.TabIndex = 20;
-            // 
-            // rb_cl_disablehtmlmotdOn
-            // 
-            this.rb_cl_disablehtmlmotdOn.AutoSize = true;
-            this.rb_cl_disablehtmlmotdOn.Location = new System.Drawing.Point(3, 3);
-            this.rb_cl_disablehtmlmotdOn.Name = "rb_cl_disablehtmlmotdOn";
-            this.rb_cl_disablehtmlmotdOn.Size = new System.Drawing.Size(39, 17);
-            this.rb_cl_disablehtmlmotdOn.TabIndex = 14;
-            this.rb_cl_disablehtmlmotdOn.Text = "On";
-            this.rb_cl_disablehtmlmotdOn.UseVisualStyleBackColor = true;
-            // 
-            // rb_cl_disablehtmlmotdOff
-            // 
-            this.rb_cl_disablehtmlmotdOff.AutoSize = true;
-            this.rb_cl_disablehtmlmotdOff.Checked = true;
-            this.rb_cl_disablehtmlmotdOff.Location = new System.Drawing.Point(48, 3);
-            this.rb_cl_disablehtmlmotdOff.Name = "rb_cl_disablehtmlmotdOff";
-            this.rb_cl_disablehtmlmotdOff.Size = new System.Drawing.Size(39, 17);
-            this.rb_cl_disablehtmlmotdOff.TabIndex = 15;
-            this.rb_cl_disablehtmlmotdOff.TabStop = true;
-            this.rb_cl_disablehtmlmotdOff.Text = "Off";
-            this.rb_cl_disablehtmlmotdOff.UseVisualStyleBackColor = true;
-            // 
-            // tb_fps_max
-            // 
-            this.tb_fps_max.Location = new System.Drawing.Point(196, 12);
-            this.tb_fps_max.Name = "tb_fps_max";
-            this.tb_fps_max.Size = new System.Drawing.Size(100, 20);
-            this.tb_fps_max.TabIndex = 3;
-            this.tb_fps_max.Text = "200";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(140, 15);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(50, 13);
-            this.label22.TabIndex = 2;
-            this.label22.Text = "Max FPS";
-            // 
             // tabHitsound
             // 
-            this.tabHitsound.Controls.Add(this.tb_tf_dingaling_pitchmaxdmg);
+            this.tabHitsound.Controls.Add(this.num_tf_dingaling_pitchmaxdmg);
+            this.tabHitsound.Controls.Add(this.num_tf_dingaling_pitchmindmg);
+            this.tabHitsound.Controls.Add(this.num_tf_dingaling_volume);
             this.tabHitsound.Controls.Add(this.label27);
-            this.tabHitsound.Controls.Add(this.tb_tf_dingaling_pitchmindmg);
             this.tabHitsound.Controls.Add(this.label26);
             this.tabHitsound.Controls.Add(this.label28);
             this.tabHitsound.Controls.Add(this.panel22);
-            this.tabHitsound.Controls.Add(this.tb_tf_dingaling_volume);
             this.tabHitsound.Controls.Add(this.label29);
             this.tabHitsound.Location = new System.Drawing.Point(4, 22);
             this.tabHitsound.Name = "tabHitsound";
             this.tabHitsound.Padding = new System.Windows.Forms.Padding(3);
-            this.tabHitsound.Size = new System.Drawing.Size(474, 274);
+            this.tabHitsound.Size = new System.Drawing.Size(538, 304);
             this.tabHitsound.TabIndex = 5;
             this.tabHitsound.Text = "Hitsound";
             this.tabHitsound.UseVisualStyleBackColor = true;
-            // 
-            // tb_tf_dingaling_pitchmaxdmg
-            // 
-            this.tb_tf_dingaling_pitchmaxdmg.Location = new System.Drawing.Point(196, 90);
-            this.tb_tf_dingaling_pitchmaxdmg.Name = "tb_tf_dingaling_pitchmaxdmg";
-            this.tb_tf_dingaling_pitchmaxdmg.Size = new System.Drawing.Size(100, 20);
-            this.tb_tf_dingaling_pitchmaxdmg.TabIndex = 32;
-            this.tb_tf_dingaling_pitchmaxdmg.Text = "100";
             // 
             // label27
             // 
@@ -1243,14 +1059,6 @@
             this.label27.Size = new System.Drawing.Size(118, 13);
             this.label27.TabIndex = 31;
             this.label27.Text = "Maximum damage pitch";
-            // 
-            // tb_tf_dingaling_pitchmindmg
-            // 
-            this.tb_tf_dingaling_pitchmindmg.Location = new System.Drawing.Point(196, 64);
-            this.tb_tf_dingaling_pitchmindmg.Name = "tb_tf_dingaling_pitchmindmg";
-            this.tb_tf_dingaling_pitchmindmg.Size = new System.Drawing.Size(100, 20);
-            this.tb_tf_dingaling_pitchmindmg.TabIndex = 30;
-            this.tb_tf_dingaling_pitchmindmg.Text = "100";
             // 
             // label26
             // 
@@ -1301,14 +1109,6 @@
             this.rb_tf_dingalingalingOff.Text = "Off";
             this.rb_tf_dingalingalingOff.UseVisualStyleBackColor = true;
             // 
-            // tb_tf_dingaling_volume
-            // 
-            this.tb_tf_dingaling_volume.Location = new System.Drawing.Point(196, 38);
-            this.tb_tf_dingaling_volume.Name = "tb_tf_dingaling_volume";
-            this.tb_tf_dingaling_volume.Size = new System.Drawing.Size(100, 20);
-            this.tb_tf_dingaling_volume.TabIndex = 26;
-            this.tb_tf_dingaling_volume.Text = "0.75";
-            // 
             // label29
             // 
             this.label29.AutoSize = true;
@@ -1320,28 +1120,20 @@
             // 
             // tabCrosshair
             // 
-            this.tabCrosshair.Controls.Add(this.tb_cl_crosshair_scale);
+            this.tabCrosshair.Controls.Add(this.num_cl_crosshair_scale);
+            this.tabCrosshair.Controls.Add(this.num_cl_crosshair_blue);
+            this.tabCrosshair.Controls.Add(this.num_cl_crosshair_green);
+            this.tabCrosshair.Controls.Add(this.num_cl_crosshair_red);
             this.tabCrosshair.Controls.Add(this.label32);
-            this.tabCrosshair.Controls.Add(this.tb_cl_crosshair_blue);
             this.tabCrosshair.Controls.Add(this.label30);
-            this.tabCrosshair.Controls.Add(this.tb_cl_crosshair_green);
             this.tabCrosshair.Controls.Add(this.label31);
-            this.tabCrosshair.Controls.Add(this.tb_cl_crosshair_red);
             this.tabCrosshair.Controls.Add(this.label33);
             this.tabCrosshair.Location = new System.Drawing.Point(4, 22);
             this.tabCrosshair.Name = "tabCrosshair";
-            this.tabCrosshair.Size = new System.Drawing.Size(474, 274);
+            this.tabCrosshair.Size = new System.Drawing.Size(538, 304);
             this.tabCrosshair.TabIndex = 6;
             this.tabCrosshair.Text = "Crosshair";
             this.tabCrosshair.UseVisualStyleBackColor = true;
-            // 
-            // tb_cl_crosshair_scale
-            // 
-            this.tb_cl_crosshair_scale.Location = new System.Drawing.Point(196, 90);
-            this.tb_cl_crosshair_scale.Name = "tb_cl_crosshair_scale";
-            this.tb_cl_crosshair_scale.Size = new System.Drawing.Size(100, 20);
-            this.tb_cl_crosshair_scale.TabIndex = 42;
-            this.tb_cl_crosshair_scale.Text = "32";
             // 
             // label32
             // 
@@ -1352,14 +1144,6 @@
             this.label32.TabIndex = 41;
             this.label32.Text = "Scale";
             // 
-            // tb_cl_crosshair_blue
-            // 
-            this.tb_cl_crosshair_blue.Location = new System.Drawing.Point(196, 64);
-            this.tb_cl_crosshair_blue.Name = "tb_cl_crosshair_blue";
-            this.tb_cl_crosshair_blue.Size = new System.Drawing.Size(100, 20);
-            this.tb_cl_crosshair_blue.TabIndex = 40;
-            this.tb_cl_crosshair_blue.Text = "255";
-            // 
             // label30
             // 
             this.label30.AutoSize = true;
@@ -1369,14 +1153,6 @@
             this.label30.TabIndex = 39;
             this.label30.Text = "Blue";
             // 
-            // tb_cl_crosshair_green
-            // 
-            this.tb_cl_crosshair_green.Location = new System.Drawing.Point(196, 38);
-            this.tb_cl_crosshair_green.Name = "tb_cl_crosshair_green";
-            this.tb_cl_crosshair_green.Size = new System.Drawing.Size(100, 20);
-            this.tb_cl_crosshair_green.TabIndex = 38;
-            this.tb_cl_crosshair_green.Text = "200";
-            // 
             // label31
             // 
             this.label31.AutoSize = true;
@@ -1385,14 +1161,6 @@
             this.label31.Size = new System.Drawing.Size(36, 13);
             this.label31.TabIndex = 37;
             this.label31.Text = "Green";
-            // 
-            // tb_cl_crosshair_red
-            // 
-            this.tb_cl_crosshair_red.Location = new System.Drawing.Point(196, 12);
-            this.tb_cl_crosshair_red.Name = "tb_cl_crosshair_red";
-            this.tb_cl_crosshair_red.Size = new System.Drawing.Size(100, 20);
-            this.tb_cl_crosshair_red.TabIndex = 34;
-            this.tb_cl_crosshair_red.Text = "200";
             // 
             // label33
             // 
@@ -1405,19 +1173,19 @@
             // 
             // tabNetwork
             // 
-            this.tabNetwork.Controls.Add(this.tb_rate);
+            this.tabNetwork.Controls.Add(this.num_rate);
+            this.tabNetwork.Controls.Add(this.num_cl_updaterate);
+            this.tabNetwork.Controls.Add(this.num_cl_smoothtime);
+            this.tabNetwork.Controls.Add(this.num_cl_interp_ratio);
+            this.tabNetwork.Controls.Add(this.num_cl_interp);
+            this.tabNetwork.Controls.Add(this.num_cl_cmdrate);
             this.tabNetwork.Controls.Add(this.label41);
-            this.tabNetwork.Controls.Add(this.tb_cl_updaterate);
             this.tabNetwork.Controls.Add(this.label37);
-            this.tabNetwork.Controls.Add(this.tb_cl_smoothtime);
             this.tabNetwork.Controls.Add(this.label35);
             this.tabNetwork.Controls.Add(this.label34);
             this.tabNetwork.Controls.Add(this.panel21);
-            this.tabNetwork.Controls.Add(this.tb_cl_interp_ratio);
             this.tabNetwork.Controls.Add(this.label40);
-            this.tabNetwork.Controls.Add(this.tb_cl_interp);
             this.tabNetwork.Controls.Add(this.label39);
-            this.tabNetwork.Controls.Add(this.tb_cl_cmdrate);
             this.tabNetwork.Controls.Add(this.label38);
             this.tabNetwork.Controls.Add(this.label36);
             this.tabNetwork.Controls.Add(this.panel20);
@@ -1428,14 +1196,6 @@
             this.tabNetwork.Text = "Network";
             this.tabNetwork.UseVisualStyleBackColor = true;
             // 
-            // tb_rate
-            // 
-            this.tb_rate.Location = new System.Drawing.Point(196, 194);
-            this.tb_rate.Name = "tb_rate";
-            this.tb_rate.Size = new System.Drawing.Size(100, 20);
-            this.tb_rate.TabIndex = 54;
-            this.tb_rate.Text = "80000";
-            // 
             // label41
             // 
             this.label41.AutoSize = true;
@@ -1445,14 +1205,6 @@
             this.label41.TabIndex = 53;
             this.label41.Text = "Rate";
             // 
-            // tb_cl_updaterate
-            // 
-            this.tb_cl_updaterate.Location = new System.Drawing.Point(196, 168);
-            this.tb_cl_updaterate.Name = "tb_cl_updaterate";
-            this.tb_cl_updaterate.Size = new System.Drawing.Size(100, 20);
-            this.tb_cl_updaterate.TabIndex = 52;
-            this.tb_cl_updaterate.Text = "1";
-            // 
             // label37
             // 
             this.label37.AutoSize = true;
@@ -1461,14 +1213,6 @@
             this.label37.Size = new System.Drawing.Size(111, 13);
             this.label37.TabIndex = 51;
             this.label37.Text = "Command update rate";
-            // 
-            // tb_cl_smoothtime
-            // 
-            this.tb_cl_smoothtime.Location = new System.Drawing.Point(196, 142);
-            this.tb_cl_smoothtime.Name = "tb_cl_smoothtime";
-            this.tb_cl_smoothtime.Size = new System.Drawing.Size(100, 20);
-            this.tb_cl_smoothtime.TabIndex = 50;
-            this.tb_cl_smoothtime.Text = "1";
             // 
             // label35
             // 
@@ -1519,14 +1263,6 @@
             this.rb_cl_smoothOff.Text = "Off";
             this.rb_cl_smoothOff.UseVisualStyleBackColor = true;
             // 
-            // tb_cl_interp_ratio
-            // 
-            this.tb_cl_interp_ratio.Location = new System.Drawing.Point(196, 64);
-            this.tb_cl_interp_ratio.Name = "tb_cl_interp_ratio";
-            this.tb_cl_interp_ratio.Size = new System.Drawing.Size(100, 20);
-            this.tb_cl_interp_ratio.TabIndex = 46;
-            this.tb_cl_interp_ratio.Text = "1";
-            // 
             // label40
             // 
             this.label40.AutoSize = true;
@@ -1536,14 +1272,6 @@
             this.label40.TabIndex = 45;
             this.label40.Text = "Interpolation ratio";
             // 
-            // tb_cl_interp
-            // 
-            this.tb_cl_interp.Location = new System.Drawing.Point(196, 38);
-            this.tb_cl_interp.Name = "tb_cl_interp";
-            this.tb_cl_interp.Size = new System.Drawing.Size(100, 20);
-            this.tb_cl_interp.TabIndex = 44;
-            this.tb_cl_interp.Text = "0.1";
-            // 
             // label39
             // 
             this.label39.AutoSize = true;
@@ -1552,14 +1280,6 @@
             this.label39.Size = new System.Drawing.Size(103, 13);
             this.label39.TabIndex = 43;
             this.label39.Text = "Interpolation amount";
-            // 
-            // tb_cl_cmdrate
-            // 
-            this.tb_cl_cmdrate.Location = new System.Drawing.Point(196, 12);
-            this.tb_cl_cmdrate.Name = "tb_cl_cmdrate";
-            this.tb_cl_cmdrate.Size = new System.Drawing.Size(100, 20);
-            this.tb_cl_cmdrate.TabIndex = 42;
-            this.tb_cl_cmdrate.Text = "30";
             // 
             // label38
             // 
@@ -1620,7 +1340,7 @@
             this.tabSound.Controls.Add(this.panel23);
             this.tabSound.Location = new System.Drawing.Point(4, 22);
             this.tabSound.Name = "tabSound";
-            this.tabSound.Size = new System.Drawing.Size(474, 274);
+            this.tabSound.Size = new System.Drawing.Size(538, 304);
             this.tabSound.TabIndex = 8;
             this.tabSound.Text = "Sound";
             this.tabSound.UseVisualStyleBackColor = true;
@@ -1745,6 +1465,153 @@
             this.rb_dsp_enhance_stereoOff.Text = "Off";
             this.rb_dsp_enhance_stereoOff.UseVisualStyleBackColor = true;
             // 
+            // tabAdvanced
+            // 
+            this.tabAdvanced.Controls.Add(this.num_fps_max);
+            this.tabAdvanced.Controls.Add(this.label25);
+            this.tabAdvanced.Controls.Add(this.panel19);
+            this.tabAdvanced.Controls.Add(this.label24);
+            this.tabAdvanced.Controls.Add(this.panel18);
+            this.tabAdvanced.Controls.Add(this.label23);
+            this.tabAdvanced.Controls.Add(this.panel17);
+            this.tabAdvanced.Controls.Add(this.label22);
+            this.tabAdvanced.Location = new System.Drawing.Point(4, 22);
+            this.tabAdvanced.Name = "tabAdvanced";
+            this.tabAdvanced.Padding = new System.Windows.Forms.Padding(3);
+            this.tabAdvanced.Size = new System.Drawing.Size(538, 304);
+            this.tabAdvanced.TabIndex = 3;
+            this.tabAdvanced.Text = "Advanced";
+            this.tabAdvanced.UseVisualStyleBackColor = true;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(110, 95);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(80, 13);
+            this.label25.TabIndex = 23;
+            this.label25.Text = "Enable console";
+            // 
+            // panel19
+            // 
+            this.panel19.Controls.Add(this.rb_con_enableOn);
+            this.panel19.Controls.Add(this.rb_con_enableOff);
+            this.panel19.Location = new System.Drawing.Point(196, 90);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(115, 20);
+            this.panel19.TabIndex = 24;
+            // 
+            // rb_con_enableOn
+            // 
+            this.rb_con_enableOn.AutoSize = true;
+            this.rb_con_enableOn.Location = new System.Drawing.Point(3, 3);
+            this.rb_con_enableOn.Name = "rb_con_enableOn";
+            this.rb_con_enableOn.Size = new System.Drawing.Size(39, 17);
+            this.rb_con_enableOn.TabIndex = 14;
+            this.rb_con_enableOn.Text = "On";
+            this.rb_con_enableOn.UseVisualStyleBackColor = true;
+            // 
+            // rb_con_enableOff
+            // 
+            this.rb_con_enableOff.AutoSize = true;
+            this.rb_con_enableOff.Checked = true;
+            this.rb_con_enableOff.Location = new System.Drawing.Point(48, 3);
+            this.rb_con_enableOff.Name = "rb_con_enableOff";
+            this.rb_con_enableOff.Size = new System.Drawing.Size(39, 17);
+            this.rb_con_enableOff.TabIndex = 15;
+            this.rb_con_enableOff.TabStop = true;
+            this.rb_con_enableOff.Text = "Off";
+            this.rb_con_enableOff.UseVisualStyleBackColor = true;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(57, 69);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(133, 13);
+            this.label24.TabIndex = 21;
+            this.label24.Text = "Show notifications in-game";
+            // 
+            // panel18
+            // 
+            this.panel18.Controls.Add(this.rb_cl_notifications_show_ingameOn);
+            this.panel18.Controls.Add(this.rb_cl_notifications_show_ingameOff);
+            this.panel18.Location = new System.Drawing.Point(196, 64);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(115, 20);
+            this.panel18.TabIndex = 22;
+            // 
+            // rb_cl_notifications_show_ingameOn
+            // 
+            this.rb_cl_notifications_show_ingameOn.AutoSize = true;
+            this.rb_cl_notifications_show_ingameOn.Location = new System.Drawing.Point(3, 3);
+            this.rb_cl_notifications_show_ingameOn.Name = "rb_cl_notifications_show_ingameOn";
+            this.rb_cl_notifications_show_ingameOn.Size = new System.Drawing.Size(39, 17);
+            this.rb_cl_notifications_show_ingameOn.TabIndex = 14;
+            this.rb_cl_notifications_show_ingameOn.Text = "On";
+            this.rb_cl_notifications_show_ingameOn.UseVisualStyleBackColor = true;
+            // 
+            // rb_cl_notifications_show_ingameOff
+            // 
+            this.rb_cl_notifications_show_ingameOff.AutoSize = true;
+            this.rb_cl_notifications_show_ingameOff.Checked = true;
+            this.rb_cl_notifications_show_ingameOff.Location = new System.Drawing.Point(48, 3);
+            this.rb_cl_notifications_show_ingameOff.Name = "rb_cl_notifications_show_ingameOff";
+            this.rb_cl_notifications_show_ingameOff.Size = new System.Drawing.Size(39, 17);
+            this.rb_cl_notifications_show_ingameOff.TabIndex = 15;
+            this.rb_cl_notifications_show_ingameOff.TabStop = true;
+            this.rb_cl_notifications_show_ingameOff.Text = "Off";
+            this.rb_cl_notifications_show_ingameOff.UseVisualStyleBackColor = true;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(80, 43);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(110, 13);
+            this.label23.TabIndex = 19;
+            this.label23.Text = "Disable HTML MOTD";
+            // 
+            // panel17
+            // 
+            this.panel17.Controls.Add(this.rb_cl_disablehtmlmotdOn);
+            this.panel17.Controls.Add(this.rb_cl_disablehtmlmotdOff);
+            this.panel17.Location = new System.Drawing.Point(196, 38);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(115, 20);
+            this.panel17.TabIndex = 20;
+            // 
+            // rb_cl_disablehtmlmotdOn
+            // 
+            this.rb_cl_disablehtmlmotdOn.AutoSize = true;
+            this.rb_cl_disablehtmlmotdOn.Location = new System.Drawing.Point(3, 3);
+            this.rb_cl_disablehtmlmotdOn.Name = "rb_cl_disablehtmlmotdOn";
+            this.rb_cl_disablehtmlmotdOn.Size = new System.Drawing.Size(39, 17);
+            this.rb_cl_disablehtmlmotdOn.TabIndex = 14;
+            this.rb_cl_disablehtmlmotdOn.Text = "On";
+            this.rb_cl_disablehtmlmotdOn.UseVisualStyleBackColor = true;
+            // 
+            // rb_cl_disablehtmlmotdOff
+            // 
+            this.rb_cl_disablehtmlmotdOff.AutoSize = true;
+            this.rb_cl_disablehtmlmotdOff.Checked = true;
+            this.rb_cl_disablehtmlmotdOff.Location = new System.Drawing.Point(48, 3);
+            this.rb_cl_disablehtmlmotdOff.Name = "rb_cl_disablehtmlmotdOff";
+            this.rb_cl_disablehtmlmotdOff.Size = new System.Drawing.Size(39, 17);
+            this.rb_cl_disablehtmlmotdOff.TabIndex = 15;
+            this.rb_cl_disablehtmlmotdOff.TabStop = true;
+            this.rb_cl_disablehtmlmotdOff.Text = "Off";
+            this.rb_cl_disablehtmlmotdOff.UseVisualStyleBackColor = true;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(140, 15);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(50, 13);
+            this.label22.TabIndex = 2;
+            this.label22.Text = "Max FPS";
+            // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -1766,6 +1633,27 @@
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
+            // exportConfigToolStripMenuItem
+            // 
+            this.exportConfigToolStripMenuItem.Name = "exportConfigToolStripMenuItem";
+            this.exportConfigToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.exportConfigToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.exportConfigToolStripMenuItem.Text = "Save config...";
+            this.exportConfigToolStripMenuItem.Click += new System.EventHandler(this.exportConfigToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(181, 6);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -1773,6 +1661,13 @@
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // statusStrip1
             // 
@@ -1813,33 +1708,394 @@
             this.btn_useRecommendedSettings.UseVisualStyleBackColor = true;
             this.btn_useRecommendedSettings.Click += new System.EventHandler(this.btn_useRecommendedSettings_Click);
             // 
-            // exitToolStripMenuItem
+            // num_sensitivity
             // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            this.num_sensitivity.DecimalPlaces = 3;
+            this.num_sensitivity.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            196608});
+            this.num_sensitivity.Location = new System.Drawing.Point(196, 13);
+            this.num_sensitivity.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.num_sensitivity.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.num_sensitivity.Name = "num_sensitivity";
+            this.num_sensitivity.Size = new System.Drawing.Size(120, 20);
+            this.num_sensitivity.TabIndex = 26;
+            this.num_sensitivity.Value = new decimal(new int[] {
+            25,
+            0,
+            0,
+            65536});
             // 
-            // exportConfigToolStripMenuItem
+            // num_volume
             // 
-            this.exportConfigToolStripMenuItem.Name = "exportConfigToolStripMenuItem";
-            this.exportConfigToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.exportConfigToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
-            this.exportConfigToolStripMenuItem.Text = "Save config...";
-            this.exportConfigToolStripMenuItem.Click += new System.EventHandler(this.exportConfigToolStripMenuItem_Click);
+            this.num_volume.DecimalPlaces = 2;
+            this.num_volume.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.num_volume.Location = new System.Drawing.Point(196, 39);
+            this.num_volume.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.num_volume.Name = "num_volume";
+            this.num_volume.Size = new System.Drawing.Size(120, 20);
+            this.num_volume.TabIndex = 27;
+            this.num_volume.Value = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
             // 
-            // toolStripSeparator1
+            // num_viewmodel_fov
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(181, 6);
+            this.num_viewmodel_fov.Location = new System.Drawing.Point(196, 13);
+            this.num_viewmodel_fov.Maximum = new decimal(new int[] {
+            180,
+            0,
+            0,
+            0});
+            this.num_viewmodel_fov.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.num_viewmodel_fov.Name = "num_viewmodel_fov";
+            this.num_viewmodel_fov.Size = new System.Drawing.Size(120, 20);
+            this.num_viewmodel_fov.TabIndex = 19;
+            this.num_viewmodel_fov.Value = new decimal(new int[] {
+            70,
+            0,
+            0,
+            0});
             // 
-            // aboutToolStripMenuItem
+            // num_fov_desired
             // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.aboutToolStripMenuItem.Text = "About";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            this.num_fov_desired.Location = new System.Drawing.Point(196, 65);
+            this.num_fov_desired.Maximum = new decimal(new int[] {
+            90,
+            0,
+            0,
+            0});
+            this.num_fov_desired.Minimum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            0});
+            this.num_fov_desired.Name = "num_fov_desired";
+            this.num_fov_desired.Size = new System.Drawing.Size(120, 20);
+            this.num_fov_desired.TabIndex = 21;
+            this.num_fov_desired.Value = new decimal(new int[] {
+            75,
+            0,
+            0,
+            0});
+            // 
+            // num_viewmodel_fov_demo
+            // 
+            this.num_viewmodel_fov_demo.Location = new System.Drawing.Point(196, 39);
+            this.num_viewmodel_fov_demo.Maximum = new decimal(new int[] {
+            180,
+            0,
+            0,
+            0});
+            this.num_viewmodel_fov_demo.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.num_viewmodel_fov_demo.Name = "num_viewmodel_fov_demo";
+            this.num_viewmodel_fov_demo.Size = new System.Drawing.Size(120, 20);
+            this.num_viewmodel_fov_demo.TabIndex = 22;
+            this.num_viewmodel_fov_demo.Value = new decimal(new int[] {
+            54,
+            0,
+            0,
+            0});
+            // 
+            // num_tf_dingaling_volume
+            // 
+            this.num_tf_dingaling_volume.DecimalPlaces = 2;
+            this.num_tf_dingaling_volume.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.num_tf_dingaling_volume.Location = new System.Drawing.Point(196, 39);
+            this.num_tf_dingaling_volume.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.num_tf_dingaling_volume.Name = "num_tf_dingaling_volume";
+            this.num_tf_dingaling_volume.Size = new System.Drawing.Size(120, 20);
+            this.num_tf_dingaling_volume.TabIndex = 33;
+            this.num_tf_dingaling_volume.Value = new decimal(new int[] {
+            75,
+            0,
+            0,
+            131072});
+            // 
+            // num_tf_dingaling_pitchmindmg
+            // 
+            this.num_tf_dingaling_pitchmindmg.Location = new System.Drawing.Point(196, 65);
+            this.num_tf_dingaling_pitchmindmg.Maximum = new decimal(new int[] {
+            255,
+            0,
+            0,
+            0});
+            this.num_tf_dingaling_pitchmindmg.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.num_tf_dingaling_pitchmindmg.Name = "num_tf_dingaling_pitchmindmg";
+            this.num_tf_dingaling_pitchmindmg.Size = new System.Drawing.Size(120, 20);
+            this.num_tf_dingaling_pitchmindmg.TabIndex = 34;
+            this.num_tf_dingaling_pitchmindmg.Value = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            // 
+            // num_tf_dingaling_pitchmaxdmg
+            // 
+            this.num_tf_dingaling_pitchmaxdmg.Location = new System.Drawing.Point(196, 91);
+            this.num_tf_dingaling_pitchmaxdmg.Maximum = new decimal(new int[] {
+            255,
+            0,
+            0,
+            0});
+            this.num_tf_dingaling_pitchmaxdmg.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.num_tf_dingaling_pitchmaxdmg.Name = "num_tf_dingaling_pitchmaxdmg";
+            this.num_tf_dingaling_pitchmaxdmg.Size = new System.Drawing.Size(120, 20);
+            this.num_tf_dingaling_pitchmaxdmg.TabIndex = 35;
+            this.num_tf_dingaling_pitchmaxdmg.Value = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            // 
+            // num_cl_crosshair_red
+            // 
+            this.num_cl_crosshair_red.Location = new System.Drawing.Point(196, 13);
+            this.num_cl_crosshair_red.Maximum = new decimal(new int[] {
+            255,
+            0,
+            0,
+            0});
+            this.num_cl_crosshair_red.Name = "num_cl_crosshair_red";
+            this.num_cl_crosshair_red.Size = new System.Drawing.Size(120, 20);
+            this.num_cl_crosshair_red.TabIndex = 43;
+            this.num_cl_crosshair_red.Value = new decimal(new int[] {
+            200,
+            0,
+            0,
+            0});
+            // 
+            // num_cl_crosshair_green
+            // 
+            this.num_cl_crosshair_green.Location = new System.Drawing.Point(196, 39);
+            this.num_cl_crosshair_green.Maximum = new decimal(new int[] {
+            255,
+            0,
+            0,
+            0});
+            this.num_cl_crosshair_green.Name = "num_cl_crosshair_green";
+            this.num_cl_crosshair_green.Size = new System.Drawing.Size(120, 20);
+            this.num_cl_crosshair_green.TabIndex = 44;
+            this.num_cl_crosshair_green.Value = new decimal(new int[] {
+            200,
+            0,
+            0,
+            0});
+            // 
+            // num_cl_crosshair_blue
+            // 
+            this.num_cl_crosshair_blue.Location = new System.Drawing.Point(196, 65);
+            this.num_cl_crosshair_blue.Maximum = new decimal(new int[] {
+            255,
+            0,
+            0,
+            0});
+            this.num_cl_crosshair_blue.Name = "num_cl_crosshair_blue";
+            this.num_cl_crosshair_blue.Size = new System.Drawing.Size(120, 20);
+            this.num_cl_crosshair_blue.TabIndex = 45;
+            this.num_cl_crosshair_blue.Value = new decimal(new int[] {
+            200,
+            0,
+            0,
+            0});
+            // 
+            // num_cl_crosshair_scale
+            // 
+            this.num_cl_crosshair_scale.Location = new System.Drawing.Point(196, 91);
+            this.num_cl_crosshair_scale.Name = "num_cl_crosshair_scale";
+            this.num_cl_crosshair_scale.Size = new System.Drawing.Size(120, 20);
+            this.num_cl_crosshair_scale.TabIndex = 46;
+            this.num_cl_crosshair_scale.Value = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            // 
+            // num_cl_cmdrate
+            // 
+            this.num_cl_cmdrate.Location = new System.Drawing.Point(196, 13);
+            this.num_cl_cmdrate.Minimum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.num_cl_cmdrate.Name = "num_cl_cmdrate";
+            this.num_cl_cmdrate.Size = new System.Drawing.Size(120, 20);
+            this.num_cl_cmdrate.TabIndex = 55;
+            this.num_cl_cmdrate.Value = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            // 
+            // num_cl_interp
+            // 
+            this.num_cl_interp.DecimalPlaces = 6;
+            this.num_cl_interp.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            196608});
+            this.num_cl_interp.Location = new System.Drawing.Point(196, 39);
+            this.num_cl_interp.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.num_cl_interp.Name = "num_cl_interp";
+            this.num_cl_interp.Size = new System.Drawing.Size(120, 20);
+            this.num_cl_interp.TabIndex = 56;
+            this.num_cl_interp.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            // 
+            // num_cl_interp_ratio
+            // 
+            this.num_cl_interp_ratio.DecimalPlaces = 1;
+            this.num_cl_interp_ratio.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.num_cl_interp_ratio.Location = new System.Drawing.Point(196, 64);
+            this.num_cl_interp_ratio.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.num_cl_interp_ratio.Name = "num_cl_interp_ratio";
+            this.num_cl_interp_ratio.Size = new System.Drawing.Size(120, 20);
+            this.num_cl_interp_ratio.TabIndex = 57;
+            this.num_cl_interp_ratio.Value = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            // 
+            // num_cl_smoothtime
+            // 
+            this.num_cl_smoothtime.DecimalPlaces = 2;
+            this.num_cl_smoothtime.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.num_cl_smoothtime.Location = new System.Drawing.Point(196, 143);
+            this.num_cl_smoothtime.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.num_cl_smoothtime.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.num_cl_smoothtime.Name = "num_cl_smoothtime";
+            this.num_cl_smoothtime.Size = new System.Drawing.Size(120, 20);
+            this.num_cl_smoothtime.TabIndex = 58;
+            this.num_cl_smoothtime.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            // 
+            // num_cl_updaterate
+            // 
+            this.num_cl_updaterate.Location = new System.Drawing.Point(196, 169);
+            this.num_cl_updaterate.Minimum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.num_cl_updaterate.Name = "num_cl_updaterate";
+            this.num_cl_updaterate.Size = new System.Drawing.Size(120, 20);
+            this.num_cl_updaterate.TabIndex = 59;
+            this.num_cl_updaterate.Value = new decimal(new int[] {
+            20,
+            0,
+            0,
+            0});
+            // 
+            // num_rate
+            // 
+            this.num_rate.Location = new System.Drawing.Point(196, 195);
+            this.num_rate.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.num_rate.Name = "num_rate";
+            this.num_rate.Size = new System.Drawing.Size(120, 20);
+            this.num_rate.TabIndex = 60;
+            this.num_rate.Value = new decimal(new int[] {
+            80000,
+            0,
+            0,
+            0});
+            // 
+            // num_fps_max
+            // 
+            this.num_fps_max.Location = new System.Drawing.Point(196, 13);
+            this.num_fps_max.Maximum = new decimal(new int[] {
+            300,
+            0,
+            0,
+            0});
+            this.num_fps_max.Name = "num_fps_max";
+            this.num_fps_max.Size = new System.Drawing.Size(120, 20);
+            this.num_fps_max.TabIndex = 25;
+            this.num_fps_max.Value = new decimal(new int[] {
+            200,
+            0,
+            0,
+            0});
             // 
             // Form1
             // 
@@ -1899,14 +2155,6 @@
             this.panel16.PerformLayout();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
-            this.tabAdvanced.ResumeLayout(false);
-            this.tabAdvanced.PerformLayout();
-            this.panel19.ResumeLayout(false);
-            this.panel19.PerformLayout();
-            this.panel18.ResumeLayout(false);
-            this.panel18.PerformLayout();
-            this.panel17.ResumeLayout(false);
-            this.panel17.PerformLayout();
             this.tabHitsound.ResumeLayout(false);
             this.tabHitsound.PerformLayout();
             this.panel22.ResumeLayout(false);
@@ -1927,8 +2175,35 @@
             this.panel24.PerformLayout();
             this.panel23.ResumeLayout(false);
             this.panel23.PerformLayout();
+            this.tabAdvanced.ResumeLayout(false);
+            this.tabAdvanced.PerformLayout();
+            this.panel19.ResumeLayout(false);
+            this.panel19.PerformLayout();
+            this.panel18.ResumeLayout(false);
+            this.panel18.PerformLayout();
+            this.panel17.ResumeLayout(false);
+            this.panel17.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.num_sensitivity)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_volume)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_viewmodel_fov)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_fov_desired)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_viewmodel_fov_demo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_tf_dingaling_volume)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_tf_dingaling_pitchmindmg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_tf_dingaling_pitchmaxdmg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_crosshair_red)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_crosshair_green)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_crosshair_blue)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_crosshair_scale)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_cmdrate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_interp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_interp_ratio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_smoothtime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_cl_updaterate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_rate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_fps_max)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1951,12 +2226,10 @@
         private System.Windows.Forms.RadioButton rb_cl_autoreloadOff;
         private System.Windows.Forms.RadioButton rb_cl_autoreloadOn;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox tb_volume;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RadioButton rb_m_rawinputOff;
         private System.Windows.Forms.RadioButton rb_m_rawinputOn;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox tb_sensitivity;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RadioButton rb_tf_hud_no_crosshair_on_scope_zoomOff;
         private System.Windows.Forms.RadioButton rb_tf_hud_no_crosshair_on_scope_zoomOn;
@@ -1991,11 +2264,8 @@
         private System.Windows.Forms.RadioButton rb_tf_hud_show_servertimelimitOff;
         private System.Windows.Forms.RadioButton rb_tf_hud_show_servertimelimitOn;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox tb_fov_desired;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox tb_viewmodel_fov_demo;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox tb_viewmodel_fov;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
@@ -2031,48 +2301,34 @@
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.RadioButton rb_cl_disablehtmlmotdOn;
         private System.Windows.Forms.RadioButton rb_cl_disablehtmlmotdOff;
-        private System.Windows.Forms.TextBox tb_fps_max;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Panel panel19;
         private System.Windows.Forms.RadioButton rb_con_enableOn;
         private System.Windows.Forms.RadioButton rb_con_enableOff;
         private System.Windows.Forms.TabPage tabHitsound;
-        private System.Windows.Forms.TextBox tb_tf_dingaling_pitchmaxdmg;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TextBox tb_tf_dingaling_pitchmindmg;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Panel panel22;
         private System.Windows.Forms.RadioButton rb_tf_dingalingalingOn;
         private System.Windows.Forms.RadioButton rb_tf_dingalingalingOff;
-        private System.Windows.Forms.TextBox tb_tf_dingaling_volume;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.TabPage tabCrosshair;
-        private System.Windows.Forms.TextBox tb_cl_crosshair_scale;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.TextBox tb_cl_crosshair_blue;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.TextBox tb_cl_crosshair_green;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.TextBox tb_cl_crosshair_red;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.TabPage tabNetwork;
-        private System.Windows.Forms.TextBox tb_rate;
         private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.TextBox tb_cl_updaterate;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.TextBox tb_cl_smoothtime;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Panel panel21;
         private System.Windows.Forms.RadioButton rb_cl_smoothOn;
         private System.Windows.Forms.RadioButton rb_cl_smoothOff;
-        private System.Windows.Forms.TextBox tb_cl_interp_ratio;
         private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.TextBox tb_cl_interp;
         private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.TextBox tb_cl_cmdrate;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Panel panel20;
@@ -2095,6 +2351,25 @@
         private System.Windows.Forms.ToolStripMenuItem exportConfigToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.NumericUpDown num_volume;
+        private System.Windows.Forms.NumericUpDown num_sensitivity;
+        private System.Windows.Forms.NumericUpDown num_viewmodel_fov_demo;
+        private System.Windows.Forms.NumericUpDown num_fov_desired;
+        private System.Windows.Forms.NumericUpDown num_viewmodel_fov;
+        private System.Windows.Forms.NumericUpDown num_tf_dingaling_pitchmaxdmg;
+        private System.Windows.Forms.NumericUpDown num_tf_dingaling_pitchmindmg;
+        private System.Windows.Forms.NumericUpDown num_tf_dingaling_volume;
+        private System.Windows.Forms.NumericUpDown num_cl_crosshair_scale;
+        private System.Windows.Forms.NumericUpDown num_cl_crosshair_blue;
+        private System.Windows.Forms.NumericUpDown num_cl_crosshair_green;
+        private System.Windows.Forms.NumericUpDown num_cl_crosshair_red;
+        private System.Windows.Forms.NumericUpDown num_rate;
+        private System.Windows.Forms.NumericUpDown num_cl_updaterate;
+        private System.Windows.Forms.NumericUpDown num_cl_smoothtime;
+        private System.Windows.Forms.NumericUpDown num_cl_interp_ratio;
+        private System.Windows.Forms.NumericUpDown num_cl_interp;
+        private System.Windows.Forms.NumericUpDown num_cl_cmdrate;
+        private System.Windows.Forms.NumericUpDown num_fps_max;
     }
 }
 

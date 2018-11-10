@@ -69,8 +69,8 @@ namespace TF2_Config_Generator
 
                 /*
                 lines += "\n// GENERAL\n";
-                lines += "sensitivity " + tb_sensitivity.Text + "\n";
-                lines += "volume " + tb_volume.Text + "\n";
+                lines += "sensitivity " + num_sensitivity.Text + "\n";
+                lines += "volume " + num_volume.Text + "\n";
                 if (rb_m_rawinputOn.Checked)  lines += "m_rawinput 1\n"; else lines += "m_rawinput 0\n";
                 if (rb_cl_autoreloadOn.Checked) lines += "cl_autoreload 1\n"; else lines += "cl_autoreload 0\n";
                 if (rb_hud_fastswitchOn.Checked) lines += "hud_fastswitch 1\n"; else lines += "hud_fastswitch 0\n";
@@ -86,9 +86,9 @@ namespace TF2_Config_Generator
                 if (rb_cl_autorezoomOn.Checked) lines += "cl_autorezoom 1\n"; else lines += "cl_autorezoom 0\n";
 
                 lines += "\n// GRAPHICS\n";
-                lines += "viewmodel_fov " + tb_viewmodel_fov.Text + "\n";
-                lines += "viewmodel_fov_demo " + tb_viewmodel_fov_demo.Text + "\n";
-                lines += "fov_desired " + tb_fov_desired.Text + "\n";
+                lines += "viewmodel_fov " + num_viewmodel_fov.Text + "\n";
+                lines += "viewmodel_fov_demo " + num_viewmodel_fov_demo.Text + "\n";
+                lines += "fov_desired " + num_fov_desired.Text + "\n";
                 if (rb_tf_hud_show_servertimelimitOn.Checked) lines += "tf_hud_show_servertimelimit 1\n"; else lines += "tf_hud_show_servertimelimit 0\n";
                 if (rb_cl_hud_playerclass_use_playermodelOn.Checked) lines += "cl_hud_playerclass_use_playermodel 1\n"; else lines += "cl_hud_playerclass_use_playermodel 0\n";
                 if (rb_mat_vsyncOn.Checked) lines += "mat_vsync 1\n"; else lines += "mat_vsync 0\n";
@@ -98,18 +98,18 @@ namespace TF2_Config_Generator
                 if (rb_cl_autorezoomOn.Checked) lines += "cl_autorezoom 1\n"; else lines += "cl_autorezoom 0\n";
 
                 lines += "\n// ADVANCED\n";
-                lines += "fps_max " + tb_fps_max.Text + "\n";
+                lines += "fps_max " + num_fps_max.Text + "\n";
                 if (rb_cl_disablehtmlmotdOn.Checked) lines += "cl_disablehtmlmotd 1\n"; else lines += "cl_disablehtmlmotd 0\n";
                 if (rb_cl_notifications_show_ingameOn.Checked) lines += "cl_notifications_show_ingame 1\n"; else lines += "cl_notifications_show_ingame 0\n";
                 if (rb_con_enableOn.Checked) lines += "con_enable 1\n"; else lines += "con_enable 0\n";
 
                 lines += "\n// HITSOUND\n";
                 if (rb_tf_dingalingalingOn.Checked) lines += "tf_dingalingaling 1\n"; else lines += "tf_dingalingaling 0\n";
-                lines += "tf_dingaling_volume " + tb_tf_dingaling_volume.Text + "\n";
+                lines += "tf_dingaling_volume " + num_tf_dingaling_volume.Text + "\n";
                 lines += "";
                 */
 
-                List<TextBox> textBoxes = new List<TextBox>();
+                List<NumericUpDown> numericUpDowns = new List<NumericUpDown>();
                 List<RadioButton> radioButtons = new List<RadioButton>();
 
                 foreach (TabPage tabPage in tabControl1.TabPages)
@@ -122,8 +122,8 @@ namespace TF2_Config_Generator
                     // Get controls from current tab page
                     foreach (Control control in tabPage.Controls)
                     {
-                        if (control is TextBox)
-                            textBoxes.Add((TextBox)control);
+                        if (control is NumericUpDown)
+                            numericUpDowns.Add((NumericUpDown)control);
                         else if (control is RadioButton && control.Name.Contains("On"))
                             radioButtons.Add((RadioButton)control);
                         else if (control is Panel)
@@ -136,12 +136,12 @@ namespace TF2_Config_Generator
                         }
                     }
 
-                    textBoxes = textBoxes.OrderBy(x => x.Name).ToList();
+                    numericUpDowns = numericUpDowns.OrderBy(x => x.Name).ToList();
                     radioButtons = radioButtons.OrderBy(x => x.Name).ToList();
 
-                    foreach (TextBox textBox in textBoxes)
+                    foreach (NumericUpDown numericUpDown in numericUpDowns)
                     {
-                        lines += textBox.Name.Substring(3, textBox.Name.Length - 3) + " " + textBox.Text + "\n";
+                        lines += numericUpDown.Name.Substring(4, numericUpDown.Name.Length - 4) + " " + numericUpDown.Text + "\n";
                     }
 
                     foreach (RadioButton radioButton in radioButtons)
@@ -154,7 +154,7 @@ namespace TF2_Config_Generator
                             lines += " 0\n";
                     }
 
-                    textBoxes.Clear();
+                    numericUpDowns.Clear();
                     radioButtons.Clear();
                 }
 
@@ -180,8 +180,8 @@ namespace TF2_Config_Generator
         private void setDefaultSettings()
         {
             // GENERAL
-            tb_sensitivity.Text = "4";
-            tb_volume.Text = "1.0";
+            num_sensitivity.Text = "4";
+            num_volume.Text = "1.0";
             rb_m_rawinputOn.Checked = false;
             rb_m_rawinputOff.Checked = true;
 
@@ -218,9 +218,9 @@ namespace TF2_Config_Generator
             rb_tf_hud_no_crosshair_on_scope_zoomOff.Checked = false;
 
             // GRAPHICS
-            tb_viewmodel_fov.Text = "54";
-            tb_viewmodel_fov_demo.Text = "54";
-            tb_fov_desired.Text = "75";
+            num_viewmodel_fov.Text = "54";
+            num_viewmodel_fov_demo.Text = "54";
+            num_fov_desired.Text = "75";
             rb_tf_hud_show_servertimelimitOn.Checked = true;
             rb_tf_hud_show_servertimelimitOff.Checked = false;
 
@@ -238,7 +238,7 @@ namespace TF2_Config_Generator
             rb_cl_autorezoomOff.Checked = false;
 
             // ADVANCED
-            tb_fps_max.Text = "200";
+            num_fps_max.Text = "200";
             rb_cl_disablehtmlmotdOn.Checked = false;
             rb_cl_disablehtmlmotdOff.Checked = true;
 
@@ -252,20 +252,20 @@ namespace TF2_Config_Generator
             rb_tf_dingalingalingOn.Checked = false;
             rb_tf_dingalingalingOff.Checked = true;
 
-            tb_tf_dingaling_volume.Text = "0.75";
-            tb_tf_dingaling_pitchmindmg.Text = "100";
-            tb_tf_dingaling_pitchmaxdmg.Text = "100";
+            num_tf_dingaling_volume.Text = "0.75";
+            num_tf_dingaling_pitchmindmg.Text = "100";
+            num_tf_dingaling_pitchmaxdmg.Text = "100";
 
             // CROSSHAIR
-            tb_cl_crosshair_red.Text = "200";
-            tb_cl_crosshair_green.Text = "200";
-            tb_cl_crosshair_blue.Text = "200";
-            tb_cl_crosshair_scale.Text = "32";
+            num_cl_crosshair_red.Text = "200";
+            num_cl_crosshair_green.Text = "200";
+            num_cl_crosshair_blue.Text = "200";
+            num_cl_crosshair_scale.Text = "32";
 
             // NETWORK
-            tb_cl_cmdrate.Text = "30";
-            tb_cl_interp.Text = "0.1";
-            tb_cl_interp_ratio.Text = "2.0";
+            num_cl_cmdrate.Text = "30";
+            num_cl_interp.Text = "0.1";
+            num_cl_interp_ratio.Text = "2.0";
 
             rb_cl_lagcompensationOn.Checked = true;
             rb_cl_lagcompensationOff.Checked = false;
@@ -273,9 +273,9 @@ namespace TF2_Config_Generator
             rb_cl_smoothOn.Checked = true;
             rb_cl_smoothOff.Checked = false;
 
-            tb_cl_smoothtime.Text = "0.1";
-            tb_cl_updaterate.Text = "20";
-            tb_rate.Text = "80000";
+            num_cl_smoothtime.Text = "0.1";
+            num_cl_updaterate.Text = "20";
+            num_rate.Text = "80000";
 
             // SOUND
             rb_dsp_enhance_stereoOn.Checked =  true;
@@ -291,8 +291,8 @@ namespace TF2_Config_Generator
         private void setRecommendedSettings()
         {
             // GENERAL
-            tb_sensitivity.Text = "4";
-            tb_volume.Text = "1.0";
+            num_sensitivity.Text = "4";
+            num_volume.Text = "1.0";
             rb_m_rawinputOn.Checked = true;
             rb_m_rawinputOff.Checked = false;
 
@@ -329,9 +329,9 @@ namespace TF2_Config_Generator
             rb_tf_hud_no_crosshair_on_scope_zoomOff.Checked = false;
 
             // GRAPHICS
-            tb_viewmodel_fov.Text = "70";
-            tb_viewmodel_fov_demo.Text = "70";
-            tb_fov_desired.Text = "90";
+            num_viewmodel_fov.Text = "70";
+            num_viewmodel_fov_demo.Text = "70";
+            num_fov_desired.Text = "90";
             rb_tf_hud_show_servertimelimitOn.Checked = true;
             rb_tf_hud_show_servertimelimitOff.Checked = false;
 
@@ -349,7 +349,7 @@ namespace TF2_Config_Generator
             rb_cl_autorezoomOff.Checked = true;
 
             // ADVANCED
-            tb_fps_max.Text = "200";
+            num_fps_max.Text = "200";
             rb_cl_disablehtmlmotdOn.Checked = true;
             rb_cl_disablehtmlmotdOff.Checked = false;
 
@@ -363,20 +363,20 @@ namespace TF2_Config_Generator
             rb_tf_dingalingalingOn.Checked = true;
             rb_tf_dingalingalingOff.Checked = false;
 
-            tb_tf_dingaling_volume.Text = "0.75";
-            tb_tf_dingaling_pitchmindmg.Text = "140";
-            tb_tf_dingaling_pitchmaxdmg.Text = "60";
+            num_tf_dingaling_volume.Text = "0.75";
+            num_tf_dingaling_pitchmindmg.Text = "140";
+            num_tf_dingaling_pitchmaxdmg.Text = "60";
 
             // CROSSHAIR
-            tb_cl_crosshair_red.Text = "0";
-            tb_cl_crosshair_green.Text = "255";
-            tb_cl_crosshair_blue.Text = "0";
-            tb_cl_crosshair_scale.Text = "45";
+            num_cl_crosshair_red.Text = "0";
+            num_cl_crosshair_green.Text = "255";
+            num_cl_crosshair_blue.Text = "0";
+            num_cl_crosshair_scale.Text = "45";
 
             // NETWORK
-            tb_cl_cmdrate.Text = "66";
-            tb_cl_interp.Text = "0.015200";
-            tb_cl_interp_ratio.Text = "1";
+            num_cl_cmdrate.Text = "66";
+            num_cl_interp.Text = "0.015200";
+            num_cl_interp_ratio.Text = "1";
 
             rb_cl_lagcompensationOn.Checked = true;
             rb_cl_lagcompensationOff.Checked = false;
@@ -384,9 +384,9 @@ namespace TF2_Config_Generator
             rb_cl_smoothOn.Checked = false;
             rb_cl_smoothOff.Checked = true;
 
-            tb_cl_smoothtime.Text = "0.01";
-            tb_cl_updaterate.Text = "66";
-            tb_rate.Text = "80000";
+            num_cl_smoothtime.Text = "0.01";
+            num_cl_updaterate.Text = "66";
+            num_rate.Text = "80000";
 
             // SOUND
             rb_dsp_enhance_stereoOn.Checked = true;
